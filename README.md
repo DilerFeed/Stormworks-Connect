@@ -14,3 +14,5 @@ Simply select the monitor size you currently want to transfer the image to, chec
 [![Watch the video to understand how it works](https://img.youtube.com/vi/yDV3IyEmLcY/0.jpg)](https://www.youtube.com/watch?v=yDV3IyEmLcY)
 
 # Use GitHub releases to download
+
+I understand that questions may arise regarding why I did not leave the code for the program that you are downloading here. Well, the thing is that I want to develop this program further and for now I don’t want to reveal the principle of its operation, although I am sure that people who understand at least a little about programming will already understand it from the lua code of the controller.
