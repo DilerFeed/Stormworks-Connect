@@ -5,5 +5,7 @@
 
 At the moment, the application has just been born, so it supports only one possibility - transferring any image from your PC to any monitor in the game (with the ability to fill) in a matter of seconds.
 
----<br><br>
+#
 
+## 1. Image from your computer to any monitor in the game
+Simply select the monitor size you currently want to transfer the image to, check the "fill" box if necessary and upload your image. After pressing the signal button to load the image onto the monitor into the controller, it will receive this image and display it on the monitor. Rendering is performed by batch requests that transfer the image in vertical lines in parts.
