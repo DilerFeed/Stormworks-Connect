@@ -19,7 +19,7 @@ Watch the video to understand how it works:
 
 ## 2. Connect any steering wheel with pedals to the game
 In the "Steering wheel" tab, select your steering wheel from above. All axes and buttons will be assigned automatically. But automatic assignment can be wrong, so it is possible to manually assign the steering wheel, pedals and buttons. To do this, simply click on the button to assign the functionality you need and follow the instructions in the new window. Supports pedal inversion and composite pedal mode, where the gas and brake pedals have a single output. Supports 6 custom buttons, 2 of which count as gear shift (use only with paddle shift or simple forward plus/reverse minus gearbox). Data transfer occurs thanks to http requests.
-You need this controller to get the image in the game - 
+You need this controller to work with this feature - https://steamcommunity.com/sharedfiles/filedetails/?id=3261140680
 
 ![Знімок екрана 2024-06-04 151055](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/593d4b62-78fb-465b-b9d0-93f88be6a93d)
 
