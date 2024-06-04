@@ -12,7 +12,7 @@ In the "Image transmit" tab, simply select the monitor size you currently want t
 You need this controller to get the image in the game - https://steamcommunity.com/sharedfiles/filedetails/?id=3256896125
 
 ![Знімок екрана 2024-06-04 140627](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/a0b456ab-7f85-443f-b47f-d051b31e5748)
-![Знімок екрана 2024-06-04 140643](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/d49775cb-0e3d-47e7-8131-f718e34cfa96)
+![Знімок екрана 2024-06-04 153939](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/5fbbf182-c634-454a-b214-6f7b754b6b10)
 
 Watch the video to understand how it works:
 [![Watch the video to understand how it works](https://img.youtube.com/vi/yDV3IyEmLcY/0.jpg)](https://www.youtube.com/watch?v=yDV3IyEmLcY)
