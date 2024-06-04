@@ -23,6 +23,9 @@ You need this controller to get the image in the game -
 
 ![Знімок екрана 2024-06-04 151055](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/593d4b62-78fb-465b-b9d0-93f88be6a93d)
 
+Watch the video to understand how it works:
+[![Watch the video to understand how it works](https://img.youtube.com/vi/JS2815DQp7o/0.jpg)](https://www.youtube.com/watch?v=JS2815DQp7o)
+
 # Use GitHub releases to download
 
 I understand that questions may arise regarding why I did not leave the code for the program that you are downloading here. Well, the thing is that I want to develop this program further and for now I don’t want to reveal the principle of its operation, although I am sure that people who understand at least a little about programming will already understand it from the lua code of the controller.
