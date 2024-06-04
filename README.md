@@ -1,3 +1,5 @@
+**The newest version of the program is detected as a virus even by me - I am in the process of solving this problem. If you only need the image transfer function, download version 1.0.0.0, it is ok.**
+
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
 
