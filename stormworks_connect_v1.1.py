@@ -309,14 +309,14 @@ class App(TKMT.ThemedTKinterFrame):
 
             for i in range(self.joystick.get_numaxes()):
                 value = self.joystick.get_axis(i)
-                if abs(value - previous_values[i]) > 0.2:  # Сравниваем текущее значение с предыдущим
+                if abs(value - previous_values[i]) > 0.2:  # Compare the current value with the previous one
                     axis_detected = i
                     axis_label.config(text=f"Detected Axis: {axis_detected}")
                     significant_change_detected = True
                     previous_values[i] = value
 
             if not significant_change_detected:
-                assign_window.after(50, detect_axis)  # Продолжаем проверять
+                assign_window.after(50, detect_axis)  # We continue to check
 
         def apply_axis():
             axis_var.set(axis_detected)
@@ -337,7 +337,7 @@ class App(TKMT.ThemedTKinterFrame):
         cancel_button = ttk.Button(assign_window, text="Cancel", command=cancel)
         cancel_button.pack(side="right", padx=10, pady=10)
 
-        detect_axis()  # Начинаем проверять сразу после открытия окна
+        detect_axis()  # We start checking immediately after opening the window
 
     def open_button_window(self, button_var, description):
         def on_detect_button():
