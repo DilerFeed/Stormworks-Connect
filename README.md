@@ -32,10 +32,6 @@ Watch the video to understand how it works:
 
 # Use GitHub releases to download
 
-I understand that questions may arise regarding why I did not leave the code for the program that you are downloading here. Well, the thing is that I want to develop this program further and for now I don’t want to reveal the principle of its operation, although I am sure that people who understand at least a little about programming will already understand it from the lua code of the controller.
-
-#
-
 ### All changes from the latest update (v1.1.0.0):
 * The program code has been completely redesigned, now it supports an object-oriented approach and can be easily extended.
 * Now the program has a tab structure that will allow you to add a lot of new functionality. Tabs for this update: "Image transmit", "Steering wheel", "Info".
