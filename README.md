@@ -5,7 +5,9 @@
 
 ![SC_loading_screen](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/8cf1a61f-1e31-47e4-a362-ea75258e27b5)
 
-At the moment, the application has just been born, , but is under active development, so new updates are released frequently, as are new features. Don't miss it!
+At the moment, the application has just been born, but is under active development, so new updates are released frequently, as are new features. Don't miss it!
+
+You can find all the controllers that are needed for all program functions to work here - https://steamcommunity.com/sharedfiles/filedetails/?id=3261136897
 
 #
 
