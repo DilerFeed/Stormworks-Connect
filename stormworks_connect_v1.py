@@ -178,20 +178,20 @@ image_label.pack(pady=10)
 server_status = Label(root, text="Server is running on port 5000", fg="green", font=("Arial", 12))
 server_status.pack(pady=5)
 
-# Название программы
+# The name of the program
 program_title = Label(root, text="Stormworks Connect", font=("Arial", 16))
 program_title.pack(pady=5)
 
-# Информация об авторе
+# Author information
 author_info = Label(root, text="© Hlib Ishchenko 2024", font=("Arial", 10))
 author_info.pack(pady=5)
 
-# Ссылка на профиль Steam
+# Steam profile link
 steam_profile = Label(root, text="Steam Profile", fg="blue", cursor="hand2", font=("Arial", 12))
 steam_profile.pack(pady=5)
 steam_profile.bind("<Button-1>", open_steam_profile)
 
-# Ссылка на профиль GitHub
+# Link to GitHub profile
 github_profile = Label(root, text="GitHub Profile", fg="blue", cursor="hand2", font=("Arial", 12))
 github_profile.pack(pady=5)
 github_profile.bind("<Button-1>", open_github_profile)
