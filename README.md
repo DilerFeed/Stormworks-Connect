@@ -1,4 +1,4 @@
-**The problem with false detection of a program as a virus seems to have been solved by the new compiler; unfortunately, it does not support the single-file version. Therefore, now you need to download the archive, unpack it and run the file in it.**
+**Added source code for the program.**
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
