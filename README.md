@@ -32,13 +32,13 @@ Watch the video to understand how it works:
 
 ## 3. Transmit any GIF from your computer to any monitor in the game
 In the "Image transmit" tab, in the "GIF Transmit" section, simply select the monitor size you currently want to transfer the GIF to, check the "fill" box if necessary and upload your image. After pressing the signal button to load the GIF onto the monitor into the controller, it will start downloading the GIF in parts until it has loaded all its frames into its memory, after which it will begin to play it at the speed of the original. Rendering is performed by batch requests that transfer the gif into parts of frames, after which controller combines parts of the frames into full-fledged frames, and then combines the full-fledged frames into a full-fledged gif. All this happens simultaneously, forming a very efficient algorithm that can transfer megabytes of information in a few seconds.
-You need this controller to get the GIF in the game - 
+You need this controller to get the GIF in the game - https://steamcommunity.com/sharedfiles/filedetails/?id=3262978714
 
 ![2024-06-0715-20-41-ezgif com-video-to-gif-converter](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/1466cb98-4ba1-488f-9a7e-9f8c9ddf6254)
 ![2024-06-0715-21-30-ezgif com-video-to-gif-converter](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/800633ad-96ca-4111-9f26-04ee8340e4a0)
 
 Watch the video to understand how it works:
-
+[![Watch the video to understand how it works](https://img.youtube.com/vi/2FSNrqv12NU/0.jpg)](https://www.youtube.com/watch?v=2FSNrqv12NU)
 
 # Use GitHub releases to download
 
