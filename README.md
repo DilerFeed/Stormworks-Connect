@@ -1,6 +1,6 @@
 **New version v1.1.1.0 is out!**
 
-It looks like the new version notification doesn't work in version 1.1.0.0. I apologize, but I understand that it’s too late to fix anything there. To be honest, it doesn’t work in the new version either, so I’ll publish a fix very soon.
+It looks like the new version notification doesn't work in version 1.1.0.0. I apologize, but I understand that it’s too late to fix anything there. Fortunately, everything in the new version is tested and will work when needed.
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
