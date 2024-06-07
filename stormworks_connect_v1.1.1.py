@@ -108,9 +108,8 @@ class App(TKMT.ThemedTKinterFrame):
 
         self.create_widgets()
         self.poll_joystick()
-        self.check_for_updates()
-        
         self.load_config()
+        self.check_for_updates()
         
         self.root.geometry("800x600")
         self.root.update_idletasks()
@@ -184,19 +183,31 @@ class App(TKMT.ThemedTKinterFrame):
         
     def check_for_updates(self):
         if self.suppress_update_notification:
+            logging.debug("Update check is suppressed by user settings.")
             return
 
         try:
+            logging.debug("Checking for updates...")
             response = requests.get("https://dilerfeed.github.io/Stormworks-Connect/version.json")
+            logging.debug(f"Response status code: {response.status_code}")
+            
             if response.status_code == 200:
                 version_info = response.json()
                 latest_version = version_info["version"]
                 download_url = version_info["download_url"]
-
+                
+                logging.debug(f"Latest version available: {latest_version}")
+                logging.debug(f"Current version: {self.current_version}")
+                
                 if version.parse(latest_version) > version.parse(self.current_version):
+                    logging.debug("A new version is available. Showing update notification.")
                     self.show_update_notification(download_url)
+                else:
+                    logging.debug("No new version available.")
+            else:
+                logging.error(f"Failed to fetch update information. Status code: {response.status_code}")
         except Exception as e:
-            print(f"Error checking for updates: {e}")
+            logging.error(f"Error checking for updates: {e}")
 
     def show_update_notification(self, download_url):
         update_window = tk.Toplevel(self.root)
