@@ -1,4 +1,4 @@
-**New update v1.1.1.0 coming soon!**
+**New version v1.1.1.0 is out!**
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
