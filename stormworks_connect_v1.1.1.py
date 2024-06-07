@@ -222,7 +222,7 @@ class App(TKMT.ThemedTKinterFrame):
         suppress_button.pack(pady=5)
         
     def create_custom_button(self, parent, text, command):
-        # Создание кастомной кнопки с использованием обычной кнопки tkinter
+        # Create a custom button using a regular tkinter button
         button = tk.Button(parent, text=text, command=command, bg='gold', fg='black', font=('Arial', 16, 'bold'),
                         activebackground='black', activeforeground='gold', relief='flat', borderwidth=2)
         button.pack(pady=20, padx=20)
@@ -733,11 +733,11 @@ class App(TKMT.ThemedTKinterFrame):
 
         @self.app.route('/gif_frame/<int:frame_index>', methods=['GET'])
         def get_gif_frame(frame_index):
-            start_time = time.time()  # Начало отсчета времени
+            start_time = time.time()  # Start of timing
             if frame_index < 0 or frame_index >= len(self.gif_frames_data):
                 return "Frame index out of range", 400
-            end_time = time.time()  # Конец отсчета времени
-            print(f"Time taken for frame {frame_index}: {end_time - start_time} seconds")  # Печать времени выполнения
+            end_time = time.time()  # End of timing
+            print(f"Time taken for frame {frame_index}: {end_time - start_time} seconds")  # Print runtime
             return self.gif_frames_data[frame_index], 200
 
         @self.app.route('/gif_frame_count', methods=['GET'])
