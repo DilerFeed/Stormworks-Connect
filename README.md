@@ -1,6 +1,6 @@
 **New version v1.1.1.0 is out!**
 
-It looks like the new version notification doesn't work in version 1.1.0.0. I apologize, but I understand that it’s too late to fix anything there. Fortunately, everything in the new version is tested and will work when needed.
+It looks like Steam has placed some restrictions on the steering wheel controller. The comments section is gone and links have been removed. This is just terrible and I hope it will be fixed soon.
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
