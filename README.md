@@ -1,6 +1,6 @@
 **New version v1.1.1.0 is out!**
 
-It looks like Steam has placed some restrictions on the steering wheel controller. The comments section is gone and links have been removed. This is just terrible and I hope it will be fixed soon.
+Steam support responded. The problem is solved, the page of steering wheel controller is now ok :)
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
