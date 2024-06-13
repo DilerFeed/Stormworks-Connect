@@ -1,6 +1,4 @@
-**New version v1.1.1.0 is out!**
-
-Steam support responded. The problem is solved, the page of steering wheel controller is now ok :)
+**Version 1.2.0.0 is coming soon!**
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
@@ -52,3 +50,10 @@ Watch the video to understand how it works:
 * In the "Steering wheel" tab, it is now impossible to check the "Swap Gas and Brake Pedals" checkbox if the "Combined Pedals" checkbox is checked, since the program previously did not support the operation of these functionalities at the same time and could break.
 * Now ALL settings in the "Steering wheel" tab are saved in a special configuration file in the program folder and after restarting the program they will not be reset to default values. This means that now you only need to set the controls for your steering wheel once.
 * A new "Support" tab has been added, where you will find a button that will take you to my page on buymeacoffee.com, where you can support my work if you like it.
+
+### Credits:
+* GIF in the support tab https://tenor.com/gy0XRBe3HbB.gif
+* <a href="https://www.flaticon.com/free-icons/steering-wheel" title="steering-wheel icons">Steering-wheel icons created by Mayor Icons - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/thumbnail" title="thumbnail icons">Thumbnail icons created by Mayor Icons - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by afif fudin - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/coin" title="coin icons">Coin icons created by Mayor Icons - Flaticon</a>
