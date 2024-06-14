@@ -15,8 +15,8 @@ You can find all the controllers that are needed for all program functions to wo
 In the "Image transmit" tab, in the "Image Transmit" section, simply select the monitor size you currently want to transfer the image to, check the "fill" box if necessary and upload your image. After pressing the signal button to load the image onto the monitor into the controller, it will receive this image and display it on the monitor. Rendering is performed by batch requests that transfer the image in vertical lines in parts.
 You need this controller to get the image in the game - https://steamcommunity.com/sharedfiles/filedetails/?id=3256896125
 
-![Знімок екрана 2024-06-04 140627](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/a0b456ab-7f85-443f-b47f-d051b31e5748)
-![Знімок екрана 2024-06-04 153939](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/5fbbf182-c634-454a-b214-6f7b754b6b10)
+![Знімок екрана 2024-06-14 143744](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/a249e8a4-0560-4852-8aa9-29a4975f2c38)
+![Знімок екрана 2024-06-14 144519](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/5708533b-ad04-4c93-bd85-3c1ada59ac8e)
 
 Watch the video to understand how it works:
 [![Watch the video to understand how it works](https://img.youtube.com/vi/yDV3IyEmLcY/0.jpg)](https://www.youtube.com/watch?v=yDV3IyEmLcY)
