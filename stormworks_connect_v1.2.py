@@ -849,7 +849,7 @@ class App(TKMT.ThemedTKinterFrame):
             return "No more content", 200
         return self.page_content[index], 200
     
-    # Улучшение разбивки текста на строки
+    # Improved text spliting
     def split_text_into_lines(self, text, max_line_length):
         wrapped_lines = []
         for line in text.split('\n'):
