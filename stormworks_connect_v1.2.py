@@ -19,7 +19,7 @@ import time
 import configparser
 from bs4 import BeautifulSoup, SoupStrainer
 import textwrap
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
 from io import BytesIO
 
 # Enable High DPI support
@@ -608,7 +608,9 @@ class App(TKMT.ThemedTKinterFrame):
         
     def load_image_from_url(self, url):
         try:
-            with urlopen(url) as response:
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+            req = Request(url, headers=headers)
+            with urlopen(req) as response:
                 image_data = response.read()
                 image = Image.open(BytesIO(image_data))
                 if image.format.lower() not in ["png", "jpeg", "jpg"]:
@@ -621,7 +623,9 @@ class App(TKMT.ThemedTKinterFrame):
 
     def load_gif_from_url(self, url):
         try:
-            with urlopen(url) as response:
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+            req = Request(url, headers=headers)
+            with urlopen(req) as response:
                 gif_data = response.read()
                 gif = imageio.mimread(BytesIO(gif_data))
                 return gif
