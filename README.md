@@ -48,7 +48,7 @@ You need this building, consisting of two controllers and the components necessa
 ![Знімок екрана 2024-06-13 144316](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/590ecd8c-a6d0-44c6-a6d3-a1d4806ee950)
 
 Watch the video to understand how it works:
-[![Watch the video to understand how it works](https://img.youtube.com/vi/2FSNrqv12NU/0.jpg)](https://www.youtube.com/watch?v=2FSNrqv12NU)
+[![Watch the video to understand how it works](https://img.youtube.com/vi/bTid7PzwMoY/0.jpg)](https://www.youtube.com/watch?v=bTid7PzwMoY)
 ###
 Well, how is this really possible? How is it possible to implement a web browser in a game where you can only write code that does not have access to the Internet?
 
