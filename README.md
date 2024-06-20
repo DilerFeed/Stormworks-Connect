@@ -1,4 +1,4 @@
-**Version 1.2.0.0 is out!**
+**Work on the next functionality is in progress. So far very cool :)**
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
@@ -70,3 +70,4 @@ So look at the picture. When you type a query on the keyboard and press the Ente
 * <a href="https://www.flaticon.com/free-icons/thumbnail" title="thumbnail icons">Thumbnail icons created by Mayor Icons - Flaticon</a>
 * <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by afif fudin - Flaticon</a>
 * <a href="https://www.flaticon.com/free-icons/coin" title="coin icons">Coin icons created by Mayor Icons - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/circuit" title="circuit icons">Circuit icons created by Mayor Icons - Flaticon</a>
