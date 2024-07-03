@@ -1,4 +1,4 @@
-**At the moment, the next update (version 1.3.0.0), the largest of all time in terms of the number of innovations, is expected to be released between July 8 and July 14.**
+**At the moment, the next update (version 1.3.0.0), the largest of all time in terms of the number of innovations, is expected to be released in the second half of July due to frequent power outages in our country.**
 
 # Stormworks-Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
