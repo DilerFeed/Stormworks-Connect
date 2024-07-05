@@ -1,39 +1,39 @@
 #include <Wire.h>
 #include "SevSeg.h"
 
-// Настройки для сегментного дисплея на 1 цифру
+// Settings for 1-digit segment display
 SevSeg sevseg; 
 
-// Настройки для RGB светодиода
+// Settings for RGB LED
 int redPin = 10;
 int greenPin = 11;
 int bluePin = 12;
 
-// Переменные для хранения состояний
+// Variables for storing states
 String command = "";
 bool newCommand = false;
 
 void setup() {
   Serial.begin(9600);
 
-  // Настройки для сегментного дисплея
+  // Settings for segment display
   byte numDigits = 1;
   byte digitPins[] = {};
-  byte segmentPins[] = {6, 5, 2, 3, 4, 7, 8, 9}; // Обновите пины на те, что используются у вас
+  byte segmentPins[] = {6, 5, 2, 3, 4, 7, 8, 9}; // Update your pins to the ones you use.
 
   bool resistorsOnSegments = true;
   byte hardwareConfig = COMMON_CATHODE; 
   sevseg.begin(hardwareConfig, numDigits, digitPins, segmentPins, resistorsOnSegments);
   sevseg.setBrightness(90);
 
-  // Настройки для RGB светодиода
+  // Settings for RGB LED
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
 }
 
 void loop() {
-  // Чтение данных из последовательного порта
+  // Reading data from a serial port
   while (Serial.available() > 0) {
     char inChar = (char)Serial.read();
     if (inChar == '\n') {
@@ -55,7 +55,7 @@ void loop() {
 }
 
 void processCommand(String command) {
-  // Пример команды: "1SEGMENT1:1" или "RGB1:255,0,0"
+  // Example command: "1SEGMENT1:1" or "RGB1:255,0,0"
   if (command.startsWith("1SEGMENT1:")) {
     int number = command.substring(10).toInt();
     sevseg.setNumber(number);
