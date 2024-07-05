@@ -2,10 +2,10 @@
 #include <LiquidCrystal_I2C.h>
 #include <Keypad.h>
 
-// Настройки для дисплея 1602 с I2C
+// Settings for 1602 Display with I2C
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-// Настройки для клавиатуры 4x4
+// Settings for 4x4 keyboard
 const byte ROWS = 4; 
 const byte COLS = 4; 
 char keys[ROWS][COLS] = {
@@ -18,25 +18,25 @@ byte rowPins[ROWS] = {5, 4, 3, 2};
 byte colPins[COLS] = {6, 7, 8, 9}; 
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
-// Настройки для остальных компонентов
+// Settings for other components
 const int buttonPin = 10;
 const int passiveBuzzerPin = 11;
 const int activeBuzzerPin = 12;
 const int potentiometerPin = A0;
 const int ledPin = 13;
 
-// Переменные для хранения состояний
+// Variables for storing states
 String command = "";
 bool newCommand = false;
 
 void setup() {
   Serial.begin(9600);
 
-  // Настройки для дисплея 1602 с I2C
+  // Settings for 1602 Display with I2C
   lcd.init();
   lcd.backlight();
 
-  // Настройки для остальных компонентов
+  // Settings for other components
   pinMode(buttonPin, INPUT);
   pinMode(passiveBuzzerPin, OUTPUT);
   pinMode(activeBuzzerPin, OUTPUT);
@@ -45,7 +45,7 @@ void setup() {
 }
 
 void loop() {
-  // Чтение данных из последовательного порта
+  // Reading data from a serial port
   while (Serial.available() > 0) {
     char inChar = (char)Serial.read();
     if (inChar == '\n') {
@@ -62,20 +62,20 @@ void loop() {
     newCommand = false;
   }
 
-  // Чтение данных с кнопки
+  // Reading data from a button
   int buttonState = digitalRead(buttonPin);
   if (buttonState == HIGH) {
     Serial.println("BUTTON1:PRESSED");
   }
 
-  // Чтение данных с клавиатуры
+  // Reading data from the keypad
   char key = keypad.getKey();
   if (key) {
     Serial.print("KEYPAD1:");
     Serial.println(key);
   }
 
-  // Чтение данных с потенциометра
+  // Reading data from potentiometer
   int potValue = map(analogRead(potentiometerPin), 0, 1023, 0, 100);
   Serial.print("POTENTIOMETER1:");
   Serial.println(potValue);
@@ -84,7 +84,6 @@ void loop() {
 }
 
 void processCommand(String command) {
-  // Пример команды: "LCD:Hello,World!"
   if (command.startsWith("LCD1:")) {
     lcd.clear();
     int commaIndex = command.indexOf(',');
