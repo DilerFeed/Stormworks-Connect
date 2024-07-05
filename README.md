@@ -71,3 +71,4 @@ So look at the picture. When you type a query on the keyboard and press the Ente
 * <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by afif fudin - Flaticon</a>
 * <a href="https://www.flaticon.com/free-icons/coin" title="coin icons">Coin icons created by Mayor Icons - Flaticon</a>
 * <a href="https://www.flaticon.com/free-icons/circuit" title="circuit icons">Circuit icons created by Mayor Icons - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/crown" title="crown icons">Crown icons created by Irfansusanto20 - Flaticon</a>
