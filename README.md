@@ -65,11 +65,13 @@ So look at the picture. When you type a query on the keyboard and press the Ente
 * The "Info" tab is now divided into two halves. The left side contains the same functionality that was previously in the "Info" tab. The right side is new and contains a list of functionality that the program has. Click on the functionality you are interested in and this will open in the browser in the workshop the page of the controller that is needed for its operation.
 
 ### Credits:
-* GIF in the support tab https://tenor.com/gy0XRBe3HbB.gif
-* <a href="https://www.flaticon.com/free-icons/steering-wheel" title="steering-wheel icons">Steering-wheel icons created by Mayor Icons - Flaticon</a>
-* <a href="https://www.flaticon.com/free-icons/thumbnail" title="thumbnail icons">Thumbnail icons created by Mayor Icons - Flaticon</a>
-* <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by afif fudin - Flaticon</a>
-* <a href="https://www.flaticon.com/free-icons/coin" title="coin icons">Coin icons created by Mayor Icons - Flaticon</a>
-* <a href="https://www.flaticon.com/free-icons/circuit" title="circuit icons">Circuit icons created by Mayor Icons - Flaticon</a>
-* <a href="https://www.flaticon.com/free-icons/crown" title="crown icons">Crown icons created by Irfansusanto20 - Flaticon</a>
-* <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+- Version 1.3.0.0:
+  * <a href="https://www.flaticon.com/free-icons/steering-wheel" title="steering-wheel icons">Steering-wheel icons created by Mayor Icons - Flaticon</a>
+  * <a href="https://www.flaticon.com/free-icons/thumbnail" title="thumbnail icons">Thumbnail icons created by Mayor Icons - Flaticon</a>
+  * <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by afif fudin - Flaticon</a>
+  * <a href="https://www.flaticon.com/free-icons/circuit" title="circuit icons">Circuit icons created by Mayor Icons - Flaticon</a>
+  * <a href="https://www.flaticon.com/free-icons/crown" title="crown icons">Crown icons created by Irfansusanto20 - Flaticon</a>
+  * <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+- Previously used:
+  * GIF in the support tab https://tenor.com/gy0XRBe3HbB.gif
+  * <a href="https://www.flaticon.com/free-icons/coin" title="coin icons">Coin icons created by Mayor Icons - Flaticon</a>
