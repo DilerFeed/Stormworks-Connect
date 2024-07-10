@@ -1,13 +1,28 @@
 **At the moment, the next update (version 1.3.0.0), the largest of all time in terms of the number of innovations, is expected to be released in the second half of July due to frequent power outages in our country.**
 
-# Stormworks-Connect
+# Stormworks Connect
 >A multifunctional application for the Stormworks game, allowing the player to exchange data with the real world directly from the game.
 
 ![SC_loading_screen](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/8cf1a61f-1e31-47e4-a362-ea75258e27b5)
 
-At the moment, the application has just been born, but is under active development, so new updates are released frequently, as are new features. Don't miss it!
+Stormworks Connect has only been around for a little over a month, but it is already a unique, unparalleled addon to the Stormworks game. Even though the application is very young, it can already be considered one of the largest, coolest and most interesting additions to the Stormworks game and the only one of its kind that does not require modification of the game files.
 
 You can find all the controllers that are needed for all program functions to work here - https://steamcommunity.com/sharedfiles/filedetails/?id=3261136897
+
+# Stormworks Connect PRO 
+>Stormworks Connect PRO is an enhanced version of the Stormworks Connect application, offering additional features to enhance your Stormworks gaming experience.
+
+![SC_loading_screen_PRO](https://github.com/DilerFeed/Stormworks-Connect/assets/33964247/97c68f3f-def8-4d52-8845-4f0ac102a215)
+
+Find out all the information about Stormworks Connect PRO in this video -
+
+At the moment, since the PRO version for Stormworks Connect has just been released, the only advantage is access to ALL Arduino modules in the corresponding tab. However, with each subsequent update, a new feature for Stormworks Connect PRO will be released, making it even more attractive.
+
+You can buy a license key to activate the PRO version of the application [here](https://hlibishchenko.gumroad.com/l/stormworks_connect_pro). The sale of keys is carried out by the well-known and reliable service Gumroad, which also generates these license keys. The price of one license key is 1 dollar. With every new feature added to Stormworks Connect PRO, its price will increase. However, those who purchased it previously will not need to pay extra again. Therefore, now is the best price.
+
+To activate your PRO license, navigate to the PRO tab in the application, enter your license key, and click "Apply". If you encounter any issues, please [contact support](https://dilerfeed.github.io/Stormworks-Connect/SC_PRO.html).
+
+On [this page](https://dilerfeed.github.io/Stormworks-Connect/SC_PRO.html) you can also find FAQ and support for Stormworks Connect PRO.
 
 #
 
@@ -58,11 +73,13 @@ So look at the picture. When you type a query on the keyboard and press the Ente
 
 # Use GitHub releases to download
 
-### All changes from the latest update (v1.2.0.0):
-* Now in the "Image transmit" tab you can upload images and GIFs both from computer files and via a link from the Internet.
-* Now all tabs also have an icon next to their name, which adds beauty to the program and can be simply convenient.
-* New functionality - the first ever working in-game (text) web browser in Stormworks. Just run the program, then subscribe to the in-game browser page in the workshop. In the list of buildings (vehicles), you will see a corresponding building that contains 2 controllers and a monitor, correctly connected to each other. You can use them separately, just go to the edit menu of one of the controllers and save, but building for a subscription will help you understand how to connect them correctly. Type your query on the small monitor and press EN (Enter), you can also use the BS button to delete entered characters. After pressing Enter, the program will process your request and send a list of 50 answers to your search query to the second controller, which will draw them on the monitor. Use the scroll buttons marked in blue (to the left of the keyboard) to navigate through the list of search results. Touch the desired search result on your monitor to read the contents of that page. The browser only supports text content, so that's what you'll see. Text content is displayed in pieces of approximately 500 characters without breaking words, which can also be scrolled through with the same scrolling buttons, so you can read ALL text content of any page.
-* The "Info" tab is now divided into two halves. The left side contains the same functionality that was previously in the "Info" tab. The right side is new and contains a list of functionality that the program has. Click on the functionality you are interested in and this will open in the browser in the workshop the page of the controller that is needed for its operation.
+### All changes from the latest update (v1.3.0.0):
+* An extended version of the program called Stormworks Connect PRO has been added. It is activated using a license key, which can be purchased [here](https://hlibishchenko.gumroad.com/l/stormworks_connect_pro). At the moment, since the PRO version for Stormworks Connect has just been released, the only advantage is access to ALL Arduino modules in the corresponding tab. On [this page](https://dilerfeed.github.io/Stormworks-Connect/SC_PRO.html) you can also find FAQ and support for Stormworks Connect PRO.
+* With this update, the free version of Stormworks Connect remains open source, but the Stormworks Connect PRO version is not, so as not to reveal how it works. This will never change again.
+* The "Support" tab has been replaced by the "PRO" tab, which now contains all the information about Stormworks Connect PRO, as well as its activation using a license key and deactivation. 
+* In the "Info" tab, in the "Features" item, a new feature "Arduino Support" has been added with a link to the controller required for it.
+* A new tab "Arduino" has been added, which is responsible for connecting the Arduino board along with a wide range of supported modules to the game. The program supports a modular structure, which consists of so-called “blocks”, which are one module connected to the board, for example an LED or a potentiometer or a display. A maximum of 16 such blocks can be placed. They support different types of outputs and inputs, which can be selected in the case of inputs or they are assigned automatically in the case of outputs. Different blocks have different settings. The structure of the blocks, their selection and order is selected by the user, so there are no restrictions in the structure of your Arduino circuit, everything is limited only by your imagination, the maximum number of blocks and the maximum number of each type of inputs and outputs of four. Communication with the board and the game occurs in real time once every second.
+* Of the supported Arduino modules for the free version, update v1.3.0.0 contains: LED, Button, Potentiometer, Active Buzzer, 4 digit 7-segment, 1 digit 7-segment. In Stormworks Connect PRO you will also have access to: Keypad (4 by 4), LCD (16x2 i2c), Passive Buzzer, RGB LED.
 
 ### Credits:
 - Version 1.3.0.0:
