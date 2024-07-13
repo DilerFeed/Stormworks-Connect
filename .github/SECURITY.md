@@ -4,9 +4,9 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.2.x   | :white_check_mark: |
-| < 1.2   | :x:                |
+| 1.3.x   | :white_check_mark: |
+| < 1.3   | :x:                |
 
 ## Reporting a Vulnerability
 
-Since the program does not currently use your data, it cannot be seriously vulnerable. However, if you find something serious, post to the [discussion with a list of ideas](https://github.com/DilerFeed/Stormworks-Connect/discussions/3).
+If you have found a way to hack license data that allows you to get the PRO version out of nowhere and activate it on several devices simultaneously, or something similar, but no less dangerous, then send a message to the creator of the program using [the PRO version support site](https://dilerfeed.github.io/Stormworks-Connect/SC_PRO.html).
