@@ -94,7 +94,7 @@ After that, launch the Arduino IDE and write a script that will exchange data wi
 
 If you have the Arduino script loaded and the "Arduino" tab configured in Stormworks Connect, everything is up and running, then you are left with the last step. Finally, all you have to do is subscribe to the desired controller (link below), then connect the necessary sensors and/or devices to the inputs and outputs that you selected or that were automatically selected by the program and spawn your vehicle. Test! Have fun!
 
-You need this controller to exchange game data with the program - 
+You need this controller to exchange game data with the program - https://steamcommunity.com/sharedfiles/filedetails/?id=3288246525
 
 ![sc_arduino_scheme](https://github.com/user-attachments/assets/7512d193-6a19-4626-b456-761521b9d6c9)
 
