@@ -111,6 +111,8 @@ You need this controller to exchange game data with the program - https://steamc
 * Of the supported Arduino modules for the free version, update v1.3.0.0 contains: LED, Button, Potentiometer, Active Buzzer, 4 digit 7-segment, 1 digit 7-segment. In Stormworks Connect PRO you will also have access to: Keypad (4 by 4), LCD (16x2 i2c), Passive Buzzer, RGB LED.
 
 ### Credits:
+- Future versions:
+  * <a href="https://www.flaticon.com/free-icons/seo-and-web" title="seo and web icons">Seo and web icons created by heisenberg_jr - Flaticon</a>
 - Version 1.3.0.0:
   * <a href="https://www.flaticon.com/free-icons/steering-wheel" title="steering-wheel icons">Steering-wheel icons created by Mayor Icons - Flaticon</a>
   * <a href="https://www.flaticon.com/free-icons/thumbnail" title="thumbnail icons">Thumbnail icons created by Mayor Icons - Flaticon</a>
